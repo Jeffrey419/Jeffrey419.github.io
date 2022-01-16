@@ -1,9 +1,10 @@
-#top{}
-#left{}
-#center{}
-#right{}
-
-
-a {
-  color:"green";
+#top{
+  
+}
+#left{
+}
+#center{
+}
+#right{
+  border: 2px black solid;
 }
