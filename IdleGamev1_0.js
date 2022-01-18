@@ -1,30 +1,38 @@
+//local storage stuff
+if (typeof(storage) != undefined) {
+if (!localStorage.moneys) {localStorage.moneys = 10;}
+} else {alert('your browser does not support webstorage');}
+
+
 //variables
-var x = 0;
-var opacity = 0;
-var messageNumber = 0;
-var talk1 = ["Hello", "Welcome to idle ball", "Enjoy"];
-var lol = 1;
-var done = 1;
-var messageDone = false;
+var money = localStorage.moneys;
+var canvas = document.getElementById("ballCanvas");
+var c = canvas.getContext('2d');
+var AmountOfBalls = 0;
 
 
-var beginningMessage = setInterval(function() {
-	document.getElementById("talk").innerHTML = talk1[messageNumber];
-	if (opacity >= 0 && lol == 0) {opacity -= 0.001}
-	if (opacity <= 1 && lol == 1) {opacity += 0.001; done = 0;}
-	if (opacity <= 0) {lol = 1;}
-	if (opacity >= 1) {lol = 0}
-	if (done != 1 && opacity <= 0) {messageNumber++; done = 1;}
-	document.getElementById("talk").style.opacity = opacity;
-	checkMessageDone()
-	if (messageNumber == 1) {document.getElementById("talk").style.fontSize = "10vw"} else{
-	document.getElementById("talk").style.fontSize = "20vw"}
-	}, 3);
-	
+//settings
 
-function checkMessageDone() {
-	if (opacity <= 0 && messageNumber == talk1.length) {clearInterval(beginningMessage)}
-	messageDone = true;
-}
-	
 
+//store, place to buy stuff
+document.getElementById("Money").innerHTML = money;
+
+
+//canvas
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight*0.9;
+
+
+//when ball is bought
+
+
+//call function to create ball until ball number equals amount of balls bought
+
+
+//create ball
+
+
+// get ball to move
+
+
+//other stuff
