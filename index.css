@@ -4,17 +4,16 @@
 }
 
 body {
+	overflow: auto;
 	background-color:skyBlue;
 	width:100%;
 	height:100%;
 }
 
 #top{
-	position: absolute;
-	top:0;
-	left:0;
+	z-index: 1;
 	width:100%;
-	height: 15%;
+	height:15vh;
 	background-color: white;
 }
 
@@ -33,7 +32,6 @@ body {
 	left:0;
 	width:20%;
 	height: 70%;
-	background-color: lightBlue;
 }
 
 #right{
@@ -42,7 +40,6 @@ body {
 	left:80%;
 	width:20%;
 	height: 70%;
-	background-color: yellow;
 }
 
 #center{
@@ -51,5 +48,11 @@ body {
 	left:20%;
 	width:60%;
 	height: 70%;
-	background-color: pink;
+	border-right: 2px black solid;
+	border-left: 2px black solid;
+}
+
+.sticky {
+	position:fixed;
+	top:0;
 }
