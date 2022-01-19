@@ -18,11 +18,6 @@ var AmountOfBalls = 0;
 document.getElementById("Money").innerHTML = money;
 
 
-//canvas
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight*0.9;
-
-
 //when ball is bought
 
 
