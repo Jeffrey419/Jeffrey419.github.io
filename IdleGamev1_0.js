@@ -10,4 +10,4 @@ var money = localStorage.moneys;
 
 //store, place to buy stuff
 document.getElementById("Money").innerHTML = money;
-document.getElementById("Money").style.fontSize = "10vh";
+document.getElementById("Money").style.fontSize = "20vh";
