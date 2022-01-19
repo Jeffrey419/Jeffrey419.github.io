@@ -6,8 +6,6 @@ if (!localStorage.moneys) {localStorage.moneys = 10;}
 
 //variables
 var money = localStorage.moneys;
-var canvas = document.getElementById("ballCanvas");
-var c = canvas.getContext('2d');
 var AmountOfBalls = 0;
 
 
