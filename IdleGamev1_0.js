@@ -14,7 +14,7 @@ var AmountOfBalls = 0;
 
 //store, place to buy stuff
 document.getElementById("Money").innerHTML = money;
-document.getElementById("Money").style.fontSize = "100vh";
+document.getElementById("Money").style.fontSize = "10vh";
 
 
 //when ball is bought
