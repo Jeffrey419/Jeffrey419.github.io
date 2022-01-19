@@ -6,27 +6,8 @@ if (!localStorage.moneys) {localStorage.moneys = 10;}
 
 //variables
 var money = localStorage.moneys;
-var AmountOfBalls = 0;
-
-
-//settings
 
 
 //store, place to buy stuff
 document.getElementById("Money").innerHTML = money;
-document.getElementById("Money").style.fontSize = "10vh";
-
-
-//when ball is bought
-
-
-//call function to create ball until ball number equals amount of balls bought
-
-
-//create ball
-
-
-// get ball to move
-
-
-//other stuff
+document.getElementById("Money").style.fontSize = "1vh";
