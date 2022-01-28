@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	background-color: lightGreen;
+}
+
+#stats {
+	margin: 0;
+	position: relative;
+	border-right: 0.5vw solid black;
+	background-color: lightBlue;
+	opacity: 1;
+}
+
+#TopDiv {
+	position: relative;
+	background-color: lightGrey;
+	border-bottom: 0.5vh solid black;
+}
+
+#content {
+	position: relative;
+	background-color: orange;
+}
+
+#speedStat {
+	height: 20%;
+	width: 100%;
+	border-bottom: 0.5vh solid black
+}
+
+#numberStat {
+	height: 58%;
+	width: 100%;
+}
+
+#otherStat {
+	height: 20%;
+	width: 100%;
+	border-top: 0.5vh solid black
+}
