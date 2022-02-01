@@ -25,6 +25,7 @@ html, body {
 #content {
 	position: relative;
 	background-color: orange;
+	overflow: hidden;
 }
 
 #speedStat {
@@ -41,5 +42,26 @@ html, body {
 #otherStat {
 	height: 20%;
 	width: 100%;
-	border-top: 0.5vh solid black
+	border-top: 0.5vh solid black;
+}
+
+.switchers {
+	color: black;
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px blue solid;
+}
+
+.switchers:hover {
+	background-image: linear-gradient(transparent, blue);
+}
+
+#switchers {
+	padding-bottom: 4vh;
+}
+
+#person{
+	z-index: 99;
+	position: absolute;
+	display: inline-block;
 }
