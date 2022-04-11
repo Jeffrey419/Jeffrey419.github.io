@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel='stylesheet' href='aGame.css'>
+</head>
+<body>
+
+<div id='idle' class='mode'>
+<span id='stats'>
+<p id='time'></p>
+<p id='income'></p>
+</span>
+<span id='stamina'>
+<span id='staminaBar'>
+</span>
+</span>
+<span id='willPower'>
+<span id='willPowerBar'>
+</span>
+</span>
+</div>
+<canvas id='factory' class='mode locked'></canvas>
+<canvas id='store' class='mode locked'></canvas>
+<canvas id='farm' class='mode locked'></canvas>
+<canvas id='adventure' class='mode locked'></canvas>
+<div id='getBetter' class='mode locked'></div>
+
+<div id='switcher'>
+<button onclick='enable("idle")'>idle</button>
+<button onclick='enable("store")'>locked</button>
+<button onclick='enable("factory")'>locked</button>
+<button onclick='enable("farm")'>locked</button>
+<button onclick='enable("adventure")'>locked</button>
+<button class='farRight' onclick='enable("getBetter")'>locked</button>
+</div>
+
+</body>
+<script src='idleMode.js'></script>
+<script src='aGameMain.js'></script>
+</html>

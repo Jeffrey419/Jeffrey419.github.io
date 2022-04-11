@@ -1,0 +1,127 @@
+body {
+margin: 0;
+width: 100%;
+height: 100%;
+overflow: hidden;
+}
+
+#factory {
+display: none;
+background-color: lightGreen;
+}
+
+#switcher {
+	white-space:nowrap;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 10%;
+	border-bottom: 0.5vh black solid;
+}
+
+#stamina {
+	box-sizing: border-box;
+	border-top: 0.25vh black solid;
+	border-left: 0.25vw black solid;
+	border-right: 0.25vw black solid;
+	border-bottom: 0.25vh black solid;
+	width: 42.5%;
+	height: 10%;
+	position: absolute;
+	top: 0;
+	left: 15%;
+}
+#staminaBar {
+	display: block;
+	background-color: green;
+	width: 100%;
+	height: 100%;
+	max-width: 100%;
+	min-width: 0;
+}
+
+#willPower {
+	box-sizing: border-box;
+	border-top: 0.25vh black solid;
+	border-left: 0.25vw black solid;
+	border-right: 0.25vw black solid;
+	border-bottom: 0.25vh black solid;
+	width: 42.5%;
+	height: 10%;
+	position: absolute;
+	top: 0;
+	left: 57.5%;
+}
+#willPowerBar {
+	display: block;
+	background-color: red;
+	max-width: 100%;
+	min-width: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#switcher button {
+	white-space:nowrap;
+	height: 100%;
+	background-color: transparent;
+	border: none;
+	box-sizing: border-box;
+	text-decoration: underline;
+}
+
+#switcher button:not(.farRight) {
+	border-right: 0.25vh black solid;
+}
+
+#store {
+	background-color: yellow;
+}
+
+#switcher button:hover {
+	background-image: linear-gradient(0deg, blue, transparent);
+}
+
+.mode {
+	position: absolute;
+	top: 10%;
+	display: none;
+	width: 100%;
+	height: 90%;
+}
+
+#farm {
+	background-color: brown;
+}
+
+#adventure {
+	background-color: lightBlue;
+}
+
+#getBetter {
+	background-color: black;
+}
+
+#idle {
+	background-color: pink;
+}
+
+#factory {
+	background-color: grey;
+}
+
+#stats {
+	box-sizing: border-box;
+	height: 100%;
+	width: 15%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-top: 0.25vh black solid;
+	border-left: 0.25vw black solid;
+	border-right: 0.25vw black solid;
+	border-bottom: 0.25vh black solid;
+	background-color: #ef3fea;
+}
