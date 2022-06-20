@@ -55,7 +55,6 @@ function widgetHandlers() {
 			widgetText.classList.add('widgetHandlerText')
 			widget.appendChild(widgetText)
 			document.getElementById('mainNavBar').appendChild(widget)
-			console.log(widget.id)
 		} else {
 			let widgetWidth = document.getElementById('mainNavBar').offsetWidth/Object.keys(widgets).length
 			document.getElementById(i + 'Handler').style.width = widgetWidth
