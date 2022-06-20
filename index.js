@@ -78,8 +78,8 @@ function widgetHandlers() {
 
 function specialWidgets() {
 	if (widgets['games'] == true) {
-		location.replace = 'file:///C:/Users/fishm/Desktop/coding/bigProject/htmlFiles/games.html'
-		document.getElementById('showInNewTab').onclick = function() {window.open('file:///C:/Users/fishm/Desktop/coding/bigProject/htmlFiles/games.html')}
+		location.replace = 'games.html'
+		document.getElementById('showInNewTab').onclick = function() {window.open('games.html')}
 	}
 }
 
