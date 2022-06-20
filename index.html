@@ -1,0 +1,34 @@
+<!--version 0.00.07-->
+<DOCTYPE html>
+<html>
+<head>
+<link rel='stylesheet' href='file:///C:/Users/fishm/Desktop/coding/bigProject/cssFiles/index.css'>
+</head>
+<body>
+<h1><?php echo "Hello World" ?></h1>
+
+<div id='mainNavBar'></div>
+<div id='widgetSpace' style='position: absolute; display: block; width: 100%; height:100%; left: 0; top: 0;'>
+
+	<div id='homePage' class='mainWidget' style='display: inline-block; background-color: lightGray'>
+		<form>
+			<input type='text'></input>
+			<input type='submit'></input>
+		</form>
+	</div>
+	
+	<div id='games' class='mainWidget' style='display: None; background-color: pink'>
+		<iframe style='z-index: 5;' src='file:///C:/Users/fishm/Desktop/coding/bigProject/htmlFiles/games.html' width='100%' height = '100%'></iframe>
+		<img id='showInNewTab' src='file:///C:/Users/fishm/Desktop/coding/bigProject/images/showInNewTab-removebg.png' alt='showInNewTab'>
+	</div>
+	
+	<div id='war' class='mainWidget' style='display: None; background-color: orange'>
+	<p id='message1'>please leave this part now, there is nothing to see here</p>
+	<h1 id='timeSpent'></h1>
+	</div>
+	
+</div>
+<p id='version'></p>
+</body>
+<script src='file:///C:/Users/fishm/Desktop/coding/bigProject/jsFiles/index.js'></script>
+</html>
