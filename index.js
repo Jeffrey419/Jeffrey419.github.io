@@ -26,7 +26,6 @@ function init() {
 	messageOne = messageOneSupport
 	widgetHandlers()
 	document.getElementById('version').innerHTML = 'version ' + version['number'] + ' ' + version['type']
-	console.log(messageOne)
 }
 
 function widgetLoad(widget) {
