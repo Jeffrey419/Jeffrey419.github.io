@@ -11,6 +11,14 @@ let timeSpent = {
 	'decisecond': 0
 }
 
+$.ajax({
+  type: "POST",
+  url: "index.py",
+  data: {'cheese': 'cheese'}
+}).done(function( o ) {
+   console.log(apple())
+});
+
 let messageOne = {'myWish': false, 
 				  'callToArms': false}
 
